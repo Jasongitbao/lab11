@@ -48,7 +48,7 @@ def main():
                 score += assign_value * submissions[assign_id][student_id] / 1000
             print(f"{round(score)}%")
     elif choice == 2:
-        assignment = input("Enter the assignment name: ")
+        assignment = input("What is the assignment name: ")
         if assignment not in assignments:
             print("Assignment not found")
         else:
@@ -60,7 +60,7 @@ def main():
             max_score = max(scores)
             ave_score = sum(scores)/ len(scores)
             print(f"Min: {round(min_score)}%")
-            print(f"Avg: {round(ave_score)}%")
+            print(f"Avg: {int(ave_score)}%")
             print(f"Max: {round(max_score)}%")
     elif choice == 3:
         assignment = input("What is the assignment name: ")
