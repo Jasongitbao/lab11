@@ -59,9 +59,9 @@ def main():
             min_score = min(scores)
             max_score = max(scores)
             ave_score = sum(scores)/ len(scores)
-            print(f"Min: {round(min_score)} %")
-            print(f"Avg: {round(ave_score)} %")
-            print(f"Max: {round(max_score)} %")
+            print(f"Min: {round(min_score)}%")
+            print(f"Avg: {round(ave_score)}%")
+            print(f"Max: {round(max_score)}%")
     elif choice == 3:
         assignment = input("Enter the assignment name: ")
         scores = []
