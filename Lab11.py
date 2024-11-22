@@ -36,7 +36,7 @@ def main():
     print()
     choice = int(input("Enter your selection: "))
     if choice == 1:
-        name = input("Enter your name: ")
+        name = input("What is the student's name: ")
         if name not in students:
             print('Student not found')
         else:
@@ -63,7 +63,7 @@ def main():
             print(f"Avg: {round(ave_score)}%")
             print(f"Max: {round(max_score)}%")
     elif choice == 3:
-        assignment = input("Enter the assignment name: ")
+        assignment = input("What is the assignment name: ")
         scores = []
         if assignment not in assignments:
             print("Assignment not found")
